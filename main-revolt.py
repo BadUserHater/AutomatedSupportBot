@@ -14,6 +14,8 @@ async def ready():
 @client.listen("message")
 async def on_message(message):  # Doesn't matter what you call the function.
     msg = message.content
+    if message.author.id == client.user.id:
+        return
     if isinstance(message.channel, voltage.DMChannel):
         if any(word in msg for word in support1):
             embed = voltage.SendableEmbed(title="Automatic AI Support Assistant", description="You can invite the Meowbahh bot to your server using this Invite link: https://app.revolt.chat/bot/01GQ6RADXPSXPF6NW4CBXXE0VV", color="#FF009F")

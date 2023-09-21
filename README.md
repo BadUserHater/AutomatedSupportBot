@@ -1,6 +1,8 @@
 Automatic Support Bot Source Code
-CREATED BY: Idiot Creature Hater#2255 on Discord.
-@IdiotCreatureHater on Revolt.chat
+CREATED BY: @idiotcreaturehater on Discord.
+IdiotCreatureHater#1983 on Revolt.chat
+
+FOR CODE UPDATES, VISIT US ON GITLAB: https://gitlab.com/idiotcreaturehater
 
 The Automatic Support Bot is a Bot that will allow your members get automated support by letting your members DM your bot with automated responses.
 
